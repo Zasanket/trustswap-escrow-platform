@@ -1,0 +1,13 @@
+*.class                  # Compiled Java classes
+*.jar                    # Packaged JAR files
+*.war                    # WAR files
+/target/                 # Maven build output directory
+.idea/                   # IntelliJ IDEA config folder
+*.iml                    # IntelliJ module files 
+
+node_modules/            # Node dependencies (auto-generated)
+dist/                    # Build output folder for Angular
+.env                     # Environment variables (never push this) 
+
+.DS_Store                # macOS metadata files
+Thumbs.db                # Windows thumbnail cache
